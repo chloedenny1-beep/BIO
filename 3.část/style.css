@@ -1,0 +1,79 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f0f2f5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+/* KARTA */
+.card {
+background: white;
+padding: 30px;
+border-radius: 20px;
+width: 320px;
+text-align: center;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* AVATAR */
+.avatar {
+width: 80px;
+height: 80px;
+background: linear-gradient(to right, #1e3c72, #2a5298);
+color: white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 24px;
+margin: 0 auto 15px;
+}
+
+/* TEXT */
+h1 {
+margin: 10px 0;
+}
+
+.subtitle {
+font-size: 12px;
+color: gray;
+margin-bottom: 15px;
+}
+
+.description {
+font-size: 14px;
+color: #444;
+margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skills span {
+display: inline-block;
+background: #e0ecff;
+color: #2a5298;
+padding: 6px 12px;
+border-radius: 20px;
+margin: 5px;
+font-size: 13px;
+}
+
+/* BUTTON */
+button {
+margin-top: 15px;
+padding: 12px 20px;
+border: none;
+border-radius: 10px;
+background: linear-gradient(to right, #1e3c72, #2a5298);
+color: white;
+font-weight: bold;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+opacity: 0.9;
+}
