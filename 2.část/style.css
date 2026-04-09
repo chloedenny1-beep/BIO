@@ -1,0 +1,35 @@
+body {
+background-color: #2c2c2c; /* dark background */
+font-family: Arial, sans-serif;
+}
+
+/* Card */
+.card {
+background-color: #f5f5f5;
+width: 600px;
+margin: 100px auto;
+padding: 30px;
+border-radius: 15px;
+text-align: center;
+
+/* shadow effect */
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.card h1 {
+color: #2f49d1;
+margin-bottom: 15px;
+}
+
+/* Blue text */
+.blue {
+color: #2f49d1;
+font-weight: bold;
+}
+
+/* Red text */
+.red {
+color: #d12f2f;
+font-weight: bold;
+}
